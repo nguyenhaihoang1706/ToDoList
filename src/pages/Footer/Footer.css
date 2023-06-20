@@ -1,0 +1,20 @@
+.footer button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  outline: none;
+  border: 1px solid #0093ab;
+  background-color: #0093ab;
+  border-radius: 3px;
+  color: white;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.footer button:hover {
+  transform: scale(1.1);
+}
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
